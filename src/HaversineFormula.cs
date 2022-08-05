@@ -6,7 +6,7 @@ namespace PilotAppLib.Mathematics
     {
         public static double CalculateDistance(Coordinate coordinate1, Coordinate coordinate2)
         {
-            return CalculateHaversineFormula(
+            return GetSphereDistance(
                 coordinate1.Longitude,
                 coordinate2.Longitude,
                 coordinate1.Latitude,
@@ -16,7 +16,7 @@ namespace PilotAppLib.Mathematics
         }
 
 
-        private static double CalculateHaversineFormula(
+        private static double GetSphereDistance(
             double longitude1,
             double longitude2,
             double latitude1,

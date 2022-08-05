@@ -24,14 +24,11 @@ namespace PilotAppLib.Mathematics
         }
 
 
-        // Wind speed in miles per hour
-
         public double Degrees
         {
             get => _degrees;
             private set => _degrees = value;
         }
-
 
         public double Radians
         {
