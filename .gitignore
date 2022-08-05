@@ -1,0 +1,15 @@
+[Oo]bj/
+[Bb]in/
+.nuget/
+.tools/
+.vs/
+artifacts/
+packages/
+nupkgs/
+reports/
+*DS_Store
+*.sln.ide
+*.suo
+*.user
+*.userprefs
+_ReSharper.*

@@ -1,0 +1,3 @@
+[submodule "ci"]
+	path = ci
+	url = https://gitlab.com/martensi1/pilot-app-libs/ci-base.git
